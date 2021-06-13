@@ -1,0 +1,27 @@
+{
+  "name": "casa",
+  "version": "1.0.0",
+  "description": "Customizable and privacy-friendly homepage written in Node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/normanlol/casa.git"
+  },
+  "keywords": [
+    "homepage",
+    "home"
+  ],
+  "author": "normanlol",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/normanlol/casa/issues"
+  },
+  "homepage": "https://github.com/normanlol/casa#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "formidable": "^1.2.2"
+  }
+}

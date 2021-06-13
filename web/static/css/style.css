@@ -1,0 +1,33 @@
+html {
+    font-family:Helvetica, Arial, sans-serif;
+}
+
+.main {
+    padding-top:12vh;
+    padding-bottom:12vh;
+}
+
+.noMargin {
+    margin:0;
+}
+
+.require-script {
+    display:none;
+}
+
+form input, form button, form select {
+    float:left;
+    height:15px;
+    padding:2px 1px;
+    margin-right:2px;
+}
+
+#nssb, #sb {
+    height:auto !important;
+    padding:1px;
+    cursor:pointer;
+}
+
+#site {
+    height:23px;
+}

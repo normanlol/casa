@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>casa</title>
+        <link href="/css/style.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="/images/icon.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="main">
+            <div id="title">
+                <img src="/images/icon.png">
+                <noscript>
+                    <h2 class="noMargin">casa</h2>
+                </noscript>
+                <div class="require-script">
+                    <h2 class="noMargin" id="date"></h2>
+                </div>
+            </div>
+            <div id="form">
+                <form method="POST" action="s">
+                    <input id="query" name="query" placeholder="Search." autocomplete="off">
+                    <select id="site" name="site">
+                        <option value="google">Google</option>
+                        <option value="bing">Bing</option>
+                        <option value="ddg">DuckDuckGo</option>
+                        <option value="seekly">Seekly</option>
+                    </select>
+                    <noscript>
+                        <input id="nssb" type="submit" value="Search">
+                    </noscript>
+                </form>
+                <div class="require-script">
+                    <button id="sb" onclick="search();">🔎</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="/js/date.js"></script>
+    <script src="/js/show.js"></script>
+    <script src="/js/search.js"></script>
+</html>
